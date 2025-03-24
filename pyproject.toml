@@ -1,0 +1,27 @@
+[project]
+name = "ml-workshop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pavlo Seimskyi",email = "pavlo.seimskyi@telavox.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "ipywidgets (>=8.1.5,<9.0.0)",
+    "jupyterlab (>=4.3.6,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "lightgbm (>=4.6.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
